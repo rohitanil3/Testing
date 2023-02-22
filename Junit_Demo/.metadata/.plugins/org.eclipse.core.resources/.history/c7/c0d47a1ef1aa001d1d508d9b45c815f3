@@ -1,0 +1,9 @@
+Feature:LoginApp
+
+Scenario:Login operations
+
+Given I opens browser
+
+When I open orkut
+
+Then login button should exists

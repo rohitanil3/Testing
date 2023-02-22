@@ -1,0 +1,12 @@
+package com.onesolvent;
+
+
+
+import cucumber.api.*;
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="src//test//java//feature",
+		glue="definitions" , stepNotifications = true
+		) 
+
+public class runTest { }

@@ -1,0 +1,12 @@
+package com.onesolvent;
+
+
+
+import org.junit.runner.RunWith; 
+import cucumber.junit.Cucumber; 
+@RunWith(Cucumber.class) 
+@Cucumber.Options(features="src/test/java/feature",
+          glue="definitions",
+		plugin = {"pretty", "html:target/cucumber"}) 
+
+public class runTest { }
